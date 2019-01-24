@@ -1,0 +1,162 @@
+* { 
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+}
+
+body { 
+  font: 13px Helvetica, Arial; 
+}
+
+#send { 
+  padding: 3px; 
+  position: fixed; 
+  bottom: 0; 
+  width: 100%;
+  margin-bottom: 8px;
+}
+      
+form input { 
+  border: 1px solid #c9c9c9; 
+  border-radius: 6px; 
+  padding: 10px; 
+  width: 20%; 
+  margin-right: .5%; 
+}
+
+.input_chat{
+  width: 70%; 
+}
+
+form button { 
+  width: 9%; 
+  background: rgb(248, 0, 142); 
+  border: none; 
+  padding: 10px; 
+  border-radius: 6px; 
+  color: white; 
+  cursor: pointer;
+}
+
+#messages { 
+  list-style-type: none; 
+  margin: 0; 
+  padding: 0;
+  color: white;
+}
+
+#messages li { 
+  padding: 5px 10px; 
+}
+
+#messages li:nth-child(odd) { background: #eeeeee26; }
+
+.block_channel{
+  background-color:rgb(248, 0, 142);
+  width: 180px;
+  height: 750px;
+  float: left;
+  margin-right: 30px;
+  box-shadow: -1px 2px 9px 4px rgba(0, 0, 0, 0.7);
+  text-align: center;
+  padding-top: 10px;
+}
+
+#pseudo{
+  margin-top: 10px;
+}
+
+.form_chat{
+  float: left;
+  width: 80%;
+}
+
+/* CONNEXION */
+
+body{
+  background-color:#262653;
+}
+
+.block_connexion{
+  padding-top: 15%;
+  padding-bottom: 20%;
+  text-align: center;
+}
+
+.input_connexion{
+  width: 85%;
+  margin-bottom: 14px;
+}
+
+.h1_connexion{
+  color: white;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.form_connexion{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.submit_connexion{
+  width: 85%;
+  background: rgb(248, 0, 142);
+  border: none;
+  color: white;
+  box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7); 
+}
+
+.submit_connexion:hover{
+  box-shadow: 1px 4px 3px 1px rgba(1, 1, 1, 0.7);
+  background: rgb(255, 43, 164);
+  transition: 1s;
+}
+
+/* CHANNELS */
+
+.li_channel{
+  margin: 10px;
+  list-style: none;
+}
+
+.link_channel{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.link_channel:hover{
+  color: #262653;
+}
+
+.form_channel{
+  position: fixed;
+  bottom: 0;
+  width: 180px;
+}
+
+.form_channel input{
+  width: 130px;
+  height: 34px;
+  margin-left: -5px;
+}
+
+.button_channel{
+  background: none;
+  border:dotted;
+  border-color: white;
+  padding: 5px;
+  color: white;
+  margin-left: -5px;
+  margin-bottom: 15px;
+  width: 130px;
+  margin-top: 8px;
+}
+
+.button_channel:hover{
+  background-color: white;
+  transition: 1s;
+  color: rgb(255, 43, 164);
+  border-color: rgb(255, 43, 164);
+}
